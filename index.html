@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css reset -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Google</title>
 </head>
+<header id="headerContainer">
+    <nav id="topLeftContainer">
+        <a href="#" id="about" class="topLeftAnchors">About</a>
+        <a href="#" class="topLeftAnchors">Store</a>
+    </nav>
+    <nav id="topRightContainer">
+        <a href="#" class="topRightAnchors">Gmail</a>
+        <a href="#" class="topRightAnchors">Images</a>
+        <a href="#" class="topRightAnchors">grid</a>
+        <a href="#" class="topRightAnchors"><input type="submit" value="Sign In" id="signIn"></a>
+    </nav>
+</header>
 <body>
-    <h1>Test is liveserver working</h1>
-    <h2>typing to see how long it will take for thiscode to display</h2>
-    wqeq
+    <div id="logoContainer">
+        <img src="/media/img/google.png" id="googleLogo" alt="google logo">
+    </div>
+    <div id="formContainer">
+        <div id="test">
+            <form action="">
+                <div id="outerSearchBar">
+                    <input type="text" id="searchBar">
+                </div>
+                <button id="googleSearch">Google Search</button>
+                <button id="feelingLucky">I'm Feeling Lucky</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="bottomLeft">
+            <nav id="leftFooterContainer">
+                <a href="#" class="leftFooterAnchors"></a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
